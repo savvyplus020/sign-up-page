@@ -3,7 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/072ef2c07a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Sign Up</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="signup">
+        <div class="img-container">
+          <div class="overlay">
+            <h1>Learn from <span>NATURE</span></h1>
+            <p>
+              What'll your environment look like in the future?<br />learn from
+              experts around the world!
+            </p>
+            <button type="button">Login</button>
+          </div>
+        </div>
+        <form action="post">
+          <h2>Create Account</h2>
+          <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+          <div class="names">
+            <div>
+              <label for="first-name">First name</label>
+              <input
+                id="first-name"
+                type="text"
+                name="first_name"
+                placeholder="John"
+              />
+            </div>
+            <div>
+              <label for="last-name">Last name</label>
+              <input
+                id="last-name"
+                type="text"
+                name="las_name"
+                placeholder="Doe"
+              />
+            </div>
+          </div>
+          <div class="email">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="example@email.com" />
+          </div>
+          <div class="password">
+            <div>
+              <label for="password">Password</label>
+              <input id="password" type="password" name="password" />
+            </div>
+            <div>
+              <label for="confirm-password">Confirm password</label>
+              <input
+                id="confirm-password"
+                type="password"
+                name="confirm_password"
+              />
+            </div>
+          </div>
+          <div class="action">
+            <div class="nl">
+              <input id="checkbox" type="checkbox" name="checkbox" checked />
+              <label for="checkbox">Subscribe to our news letter</label>
+            </div>
+            <button type="button">Sign up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/072ef2c07a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
