@@ -168,6 +168,14 @@ form .icons i:hover {
   width: 400px;
 }
 
+.error {
+  display: none;
+  color: red;
+  font-size: 15px;
+  margin-top: -15px;
+  margin-bottom: -20px;
+}
+
 .action {
   width: calc(100% - 300px);
   display: flex;
